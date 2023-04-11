@@ -13,7 +13,6 @@ Hi, I am a media artist based in Berlin.\
 - openFrameworks
 
 
-
 ```mermaid
 graph TD;
     Python-->openFrameworks-->Supercollider-->JavaScript-->FFmpeg-->C++;
@@ -22,5 +21,44 @@ graph TD;
     C++-->JavaScript-->FFmpeg-->openFrameworks-->Supercollider-->Python;
     FFmpeg-->C++-->Python-->Supercollider-->JavaScript-->openFrameworks;
     openFrameworks-->Supercollider-->JavaScript-->C++-->Python-->FFmpeg;
+    
 
 ```
+
+```mermaid
+graph TD;
+    Python-->JavaScript;
+    Python-->Supercollider;
+    Python-->C++;
+    Python-->FFmpeg;
+    Python-->openFrameworks;
+    JavaScript-->Python;
+    JavaScript-->Supercollider;
+    JavaScript-->C++;
+    JavaScript-->FFmpeg;
+    JavaScript-->openFrameworks;
+    Supercollider-->Python;
+    Supercollider-->JavaScript;
+    Supercollider-->C++;
+    Supercollider-->FFmpeg;
+    Supercollider-->openFrameworks;
+    C++-->Python;
+    C++-->JavaScript;
+    C++-->Supercollider;
+    C++-->FFmpeg;
+    C++-->openFrameworks;
+    FFmpeg-->Python;
+    FFmpeg-->JavaScript;
+    FFmpeg-->Supercollider;
+    FFmpeg-->C++;
+    FFmpeg-->openFrameworks;
+    openFrameworks-->Python;
+    openFrameworks-->JavaScript;
+    openFrameworks-->Supercollider;
+    openFrameworks-->FFmpeg;
+    
+
+```
+
+
+
