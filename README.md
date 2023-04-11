@@ -5,7 +5,8 @@ Hi, I am a media artist based in Berlin. [--->](https://www.solidbackgrounds.com
 ### I am interested in
 
 - Python
-- Javascript
+- JavaScript
 - Supercollider
 - C++
 - FFmpeg
+- openFrameworks
