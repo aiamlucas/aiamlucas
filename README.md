@@ -11,3 +11,16 @@ Hi, I am a media artist based in Berlin.\
 - C++
 - FFmpeg
 - openFrameworks
+
+
+
+```mermaid
+graph TD;
+    Python-->openFrameworks-->Supercollider-->JavaScript-->FFmpeg-->C++;
+    JavaScript-->FFmpeg-->C++-->Python-->openFrameworks-->Supercollider;
+    Supercollider-->Python-->openFrameworks-->FFmpeg-->C++-->JavaScript;
+    C++-->JavaScript-->FFmpeg-->openFrameworks-->Supercollider-->Python;
+    FFmpeg-->C++-->Python-->Supercollider-->JavaScript-->openFrameworks;
+    openFrameworks-->Supercollider-->JavaScript-->C++-->Python-->FFmpeg;
+
+```
