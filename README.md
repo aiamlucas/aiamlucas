@@ -17,7 +17,6 @@ Hi, I am a media artist based in Berlin.\
 ```mermaid
 graph TD;
     C-->Supercollider;
-    -->FFmpeg;
 ```
 
 
