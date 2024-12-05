@@ -9,15 +9,6 @@ Hi, I am a media artist based in Berlin.\
 - JavaScript
 - Zig
 - Python
-- ...
 - FFmpeg
+- ... ...
   
-
-
-```mermaid
-graph TD;
-    C-->Supercollider;
-```
-
-
-
